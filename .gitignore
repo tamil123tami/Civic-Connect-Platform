@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Agent files
+.gemini/
+.agents/
