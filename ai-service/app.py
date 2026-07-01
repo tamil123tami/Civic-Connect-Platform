@@ -9,8 +9,6 @@ app = FastAPI()
 
 class ComplaintText(BaseModel):
     description: str
-
-# --- Training Data ---
 # A small, diverse dataset to bootstrap the model
 training_data = [
     # POTHOLE
